@@ -14,7 +14,6 @@ function setup() {
   poseNet = ml5.poseNet(video, modelReady);
   poseNet.on('pose', gotPoses);
 }
-
 function gotPoses(poses) {
   // console.log(poses);
   if (poses.length > 0) {
