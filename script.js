@@ -8,7 +8,7 @@ let eyerX = 0;
 let eyerY = 0;
  
 function setup() {
-  createCanvas(640, 420);
+  createCanvas(640, 430);
   video = createCapture(VIDEO);
   video.hide();
   poseNet = ml5.poseNet(video, modelReady);
